@@ -1,0 +1,570 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkkhaki;
+}
+
+
+/* ................................................ */
+/* The default style, made for phones starts here  */
+/* .............................................. */
+
+
+
+/* ..... Style for header ..... */
+
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(147, 71, 209, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 0.5px solid rgb(51, 46, 54);
+}
+
+.title{
+    width: inherit;
+    height: inherit;
+    float: left;
+}
+
+h1{ 
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 23px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+
+
+/* ..... Style for container ..... */
+
+
+#container{
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+    z-index: 1;
+    background-color: burlywood;
+}
+
+aside{
+    width: inherit;
+    height: initial;
+    background-color: #bdb76b;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: coral;
+    background: url(./Phone_Images/myFairyPhones.png);
+}
+
+section{
+    width: inherit;
+    height: initial;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.section-header{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    background-color: ;
+}
+
+.section-header h2{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: ;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.section-text{
+    width: 300px;
+    height: initial;
+    margin: auto;
+    background-color: ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-text p{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: black;
+    font-weight: ;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+main{
+    width: inherit;
+    height: 700px;
+    background-color: rgb(104, 102, 78);
+}
+
+.wonders{
+    width:inherit;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wonder{
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.wonder a{
+    width: inherit;
+    height: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+.wonder a p{
+    font-family: 'Merienda', cursive;
+    line-height: 200px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(79, 40, 206);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px whitesmoke;
+}
+
+.wonder a p:hover{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+/* .wonder a:hover .wonder{
+    border: 1px solid wheat;
+    border-radius: 5px;
+} */
+
+#SirinHome{
+    background: url(./Phone_Images/SirinHome.jpg);
+    background-repeat: no-repeat;
+}
+
+#SirinWishes{
+    background: url(./Phone_Images/SirinWishes.jpg);
+    background-repeat: no-repeat;
+}
+
+#SirinFriends{
+    background: url(./Phone_Images/SirinFriends.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+/* ..... Style for footer ..... */
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-text{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer p{
+    font-family: 'Merienda', cursive;
+    font-size: 11px;
+    font-weight: ;
+    color: whitesmoke;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+
+/* .......... */
+/* Inside... */
+/* ........ */
+
+
+.inside-title{
+    width: inherit;
+    height: 500px;
+}
+
+.inside-title h2{
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.inside-image{
+    width: 300px;
+    height: 225px;
+    margin: auto;
+    background-color: green;
+}
+
+#homeImg{
+ background: url(inside/inside-images/InsideSirinHome.png);
+}
+
+#friendsImg{
+
+}
+
+#wishesImg{
+
+}
+
+.inside-section-header{
+
+}
+
+.inside-section-header h3{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: ;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.inside-section-text{
+
+}
+
+.inside-footer-text{
+
+}
+
+.inside-section-text p{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: ;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.inside-footer-text{
+
+}
+
+.inside-footer-text p{
+    font-family: 'Merienda', cursive;
+    font-size: 11px;
+    font-weight: ;
+    color: whitesmoke;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+/* ................................................ */
+/*         Style for tablets starts here           */
+/* .............................................. */
+
+
+@media only screen and (min-width: 600px) {
+
+
+    header{
+        width: 100%;
+        height: 70px;
+        background-color:  rgba(147, 71, 209, 0.9);
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        border-bottom: 0.5px solid rgb(51, 46, 54);
+    }
+
+    h1{ 
+        font-size: 26px;
+        line-height: 70px;
+    }
+
+    
+    /* ..... Style for container ..... */
+    
+    
+    #container{
+        max-width: 100%;
+        min-height: 1000px;
+        position: relative;
+        margin: auto;
+        z-index: 1;
+        background-color: rgb(196, 148, 85);
+    }
+
+    aside{
+        width: inherit;
+        height: initial;
+        background-color: darkkhaki;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .image{
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        background-color: coral;
+        background: url(./Tablet_Images/myFairyTablet.png);
+    }
+
+    section{
+    }
+    
+    .section-header{
+        width: 400px;
+    }
+    
+    .section-header h2{
+        font-size: 16px;
+    }
+    
+    .section-text{
+        width: 400px;
+    }
+    
+    .section-text p{
+        font-size: 14px;
+    }
+
+    main{
+        width: inherit;
+        height: 800px;
+    }
+
+    .wonders{
+        height: 800px;
+    }
+
+    .wonder{
+        width: 250px;
+        height: 250px;
+    }
+
+    .wonder a{
+        width: inherit;
+        height: inherit;
+    }
+    
+    .wonder a p{
+        font-size: 18px;
+        line-height: 250px;
+    }
+
+    #SirinHome{
+
+        background: url(./Tablet_Images/SirinHome.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    #SirinWishes{
+    
+        background: url(./Tablet_Images/SirinWishes.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    #SirinFriends{
+    
+        background: url(./Tablet_Images/SirinFriends.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    
+}
+
+
+/* ................................................ */
+/*         Style for desktop starts here           */
+/* .............................................. */
+
+@media only screen and (min-width: 768px) {
+
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: rgba(117, 20, 117, 0.8);
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        border-bottom: 0.5px solid rgb(51, 46, 54);
+    }
+
+    h1{ 
+        font-size: 26px;
+        line-height: 80px;
+    }
+
+    
+    /* ..... Style for container ..... */
+    
+    
+    #container{
+        max-width: 100%;
+        min-width: 768px;
+        min-height: 1000px;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        background-color: rgb(104, 102, 78);
+    }
+
+    .top-contnet-wraper{
+        width:100%;
+        background-color: #bdb76b;
+    }
+
+    .top-content{
+        width: 70%;
+        min-width: 768px;
+        margin: 30px auto 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: ;
+    }
+
+    aside{
+        width: 350px;
+        height: 350px;
+        background-color: ;
+    }
+    
+    .image{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: ;
+        background: url(./Desctop_Images/myFairyDesctop.png);
+
+    }
+
+    section{
+        width: 350px;
+        height: 350px;
+        border-bottom: 0px;
+        background-color: ;
+        padding: 0;
+    }
+
+
+    .section-header{
+        width: 350px;
+        height: 50px;
+        margin: 50px auto 0;
+    }
+    
+    .section-header h1{
+        font-size: 15px;
+    }
+    
+    .section-text{
+        width: 350px;
+        height: 200px;
+        margin: auto;
+        background-color: ;
+    }
+    
+    .section-text p{
+        font-size: 13px;
+    }
+
+    main{
+        width: 100%;
+        min-width: 768px;
+        height: 500px;
+        margin: auto;
+        border-top: 1px solid black;
+        
+    }
+
+    .wonders{
+        width:70%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: ;
+    }
+    
+    .wonder{
+        width: 250px;
+        height: 250px;
+    }
+
+    .wonder a{
+        width: inherit;
+        height: inherit;
+        background: url();
+    }
+    
+    .wonder a p{
+        line-height: 250px;
+        font-size: 19px;
+    }
+
+    #SirinHome{
+
+        background: url(./Desctop_Images/SirinHome.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    #SirinWishes{
+    
+        background: url(./Desctop_Images/SirinWishes.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    #SirinFriends{
+    
+        background: url(./Desctop_Images/SirinFriends.jpg);
+        background-repeat: no-repeat;
+    }
+    
+}
