@@ -1,3 +1,3 @@
 # Sirin-is-a-Fairy
 
-A responsive web site made with CSS RULES.
+A responsive website made with CSS RULES techniques.
