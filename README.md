@@ -1,4 +1,4 @@
 # Sirin the Fairy
 
-A responsive website made with CSS RULES techniques.
+A responsive website from Scratch!
 
