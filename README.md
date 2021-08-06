@@ -2,7 +2,7 @@
 
 A responsive website from Scratch!
 
-WEB TECHNOLOGIES
+Web Technologies
 
   - Html
   - Css
