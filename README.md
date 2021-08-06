@@ -1,4 +1,11 @@
-# Sirin the Fairy
+# The Fairy
 
 A responsive website from Scratch!
+
+WEB TECHNOLOGIES
+
+  - Html
+  - Css
+
+
 
